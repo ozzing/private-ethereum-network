@@ -1,0 +1,28 @@
+# : comments
+
+# no .a files
+# *.a
+
+# but do track lib.a, even though you're ignoring .a files above
+# !lib.a
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+# /TODO
+
+# ignore all files in the build/ directory
+# build/
+node1/data/caches/
+node1/data/database/
+node2/data/caches/
+node2/data/database/
+node3/data/caches/
+node3/data/database/
+node4/data/caches/
+node4/data/database/
+
+besu_wallet_practice/node_modules/
+# ignore doc/notes.txt, but not doc/server/arch.txt
+# doc/*.txt
+
+# ignore all .pdf files in the doc/ directory
+# doc/**/*.pdf
